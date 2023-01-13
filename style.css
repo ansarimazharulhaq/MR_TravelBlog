@@ -139,6 +139,8 @@
     transform: scale(0.5) translateY(-15px);
 }
 
+/* PLACES PAGE */
+
 .showcase-content .img-container{
     display: flex;
     align-items: center;
@@ -168,4 +170,27 @@
     color: white;
     margin-top: 20px;
     font-family: 'Times New Roman', Times, serif;
+}
+
+/* SERVICES PAGE */
+
+.showcase-content .row {
+    display: flex;
+    color: #fff;
+}
+
+.row h2 {
+    width: 30%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.row p {
+    width: 70%;
+    padding: 30px;
+    line-height: 1.5;
+    text-align: left;
 }
